@@ -1,3 +1,14 @@
+ <!-- https://carbon.now.sh/?bg=rgba%28248%2C231%2C28%2C1%29&t=one-dark&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=18px&lh=179%25&si=false&es=2x&wm=false&code=true%2520%253D%253D%2520%255B%255D%2520%252F%252F%2520-%253E%2520false%250Atrue%2520%253D%253D%2520%21%255B%255D%2520%252F%252F%2520-%253E%2520false%250A%250Afalse%2520%253D%253D%2520%255B%255D%2520%252F%252F%2520-%253E%2520true%250Afalse%2520%253D%253D%2520%21%255B%255D%2520%252F%252F%2520-%253E%2520true%250A -->
+
+<!-- https://wtfjs.com/wtfs/2010-02-13-null-is-not-falsy -->
+
+<!-- true is not equal ![], but not equal [] too 🤷
+•
+•
+•
+•
+#learn #javascript #nodejs #typescript #learnbygames #softwaredeveloper #softwaredevelopment #softwareengineer #softwareengineering #computerscience #computerengineering #html #webdevelopment #webdeveloper #webdesigner #webdesign #websesigners #programmers #developers #softwaredevelopers #meme #jsmeme -->
+
 # What the f\*ck JavaScript? (COPIED FROM [wtfjs](https://github.com/denysdovhan/wtfjs))
 
 ✨ **Forked version here**: https://github.com/guicheffer/wtfjs/blob/master/README.md
@@ -68,7 +79,7 @@ Currently, there are these translations of **wtfjs**:
   - [`Object.is()` and `===` weird cases](#objectis-and--weird-cases)
   - [It's a fail](#its-a-fail)
   - [`[]` is truthy, but not `true`](#-is-truthy-but-not-true)
-  - [`null` is falsy, but not `false`](#null-is-falsy-but-not-false)
+  - [`null` is falsy, but not `false` ✅](#null-is-falsy-but-not-false-)
   - [`document.all` is an object, but it is undefined](#documentall-is-an-object-but-it-is-undefined)
   - [Minimal value is greater than zero](#minimal-value-is-greater-than-zero)
   - [function is not a function](#function-is-not-a-function)
@@ -390,7 +401,7 @@ Here are links to the corresponding sections in the ECMA-262 specification:
 - [**12.5.9** Logical NOT Operator (`!`)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
 - [**7.2.15** Abstract Equality Comparison](https://262.ecma-international.org/11.0/index.html#sec-abstract-equality-comparison)
 
-## `null` is falsy, but not `false`
+## `null` is falsy, but not `false` ✅
 
 Despite the fact that `null` is a falsy value, it's not equal to `false`.
 
